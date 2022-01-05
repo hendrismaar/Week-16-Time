@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time</title>
+</head>
+<body>
+
+    <h1>
+        <%= dateToRender %>
+    </h1>
+    <div class="date-container">
+        <% for(let i = 0; i < dates.length; i++) { %>
+            <p class="date-text"><%= dates[i].content %></p>
+            <p></p>
+        <% } %>
+    </div>
+
+</body>
+</html>
